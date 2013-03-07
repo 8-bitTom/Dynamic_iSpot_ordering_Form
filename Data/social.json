@@ -1,0 +1,12 @@
+{
+    "id" : "social",
+    "description" : "let's set up an iSpot powered by social media",
+    "CSC" : "true",
+    "showNav" : true,
+    "input1": {
+        "label": "Name",
+        "name": "Name",
+        "xclass": "required",
+        "type": "text"
+    }
+}

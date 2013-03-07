@@ -1,0 +1,314 @@
+/*	Walkthrough.css
+	http://lamar.com
+	by Tom Marra
+*/
+
+h2{
+	margin-bottom: 10px;	
+}
+
+#mainContainer{
+	margin-left: auto;
+	margin-right: auto;
+	text-align : center;
+}
+
+#fieldWrapper{
+	text-align : center;
+}
+
+.step{
+	margin: 1% 1.5% 2% 1.5%;
+	
+}
+
+.ui-button {
+	margin-right:0px;	
+	margin-left:0px;
+}
+
+form{
+	box-shadow: 0px 5px 15px #888888;
+}
+
+.topContainer{
+    font-family: sans-serif;
+    font-weight: bold;
+    background: #5BCBCF;
+    margin-top:3px;
+    margin-bottom: -16px;
+    padding: 15px 5px;
+    border-radius: 7px;
+    color: white;
+    box-shadow: 0px 5px 15px #888888;
+}
+/*Button Styles*/
+label{
+    display: inline-block;
+    font-weight: bold;
+    background: #5BCBCF;
+    margin-top:3px;
+    padding: 3px 5px;
+    border-radius: 7px;
+    color: white;
+}
+
+label.error{
+    font-size: 75%;
+    color: #cd0a0a;
+}
+
+.error{
+    color: #cd0a0a;
+}
+
+#back, #nextProxy{
+    padding: 3px;
+    margin-bottom:15px;
+    border-radius: 7px;
+}
+#back:hover, #nextProxy:hover{
+    background: #5BCBCF; 
+    cursor: pointer;
+}
+
+.indented{
+    text-align: left;
+    margin-left:auto;
+    margin-right:auto;
+    background: #5BCBCF;
+    margin-top: 10px;
+    padding: 3px 5px;
+    border-radius: 7px;
+    color: white;
+    
+}
+.halfwidth{
+    width: 60%;
+    text-align: center;
+}
+.indented h4{
+    margin-left : 8%;
+}
+.indented.halfwidth h4{
+    margin-left : 0px;
+}
+.buttonContainer{
+    display: inline-block;
+    clear: none;
+    margin: 5px 13px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 0.9em;
+    box-shadow: 0px 5px 15px #888888;
+    height: 120px;
+    width: 120px;
+}
+
+.imgBtn{
+    height: 65px;
+    width: 65px;
+    /*padding: 2px;*/
+    margin-top: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.radioBtn{
+    background: url('../image/radio.png') no-repeat 50% 50% !important;
+}
+
+.timeTempBtn{
+    background: url('../image/timetemp.png') no-repeat 50% 50% !important;
+}
+
+.sportsBtn{
+    background: url('../image/sports.png') no-repeat 50% 50% !important;
+}
+
+.weatherBtn{
+    background: url('../image/weather.png') no-repeat 50% 50% !important;
+}
+
+.socialBtn{
+    background: url('../image/twitter.png') no-repeat 50% 50% !important;
+}
+
+.countdownBtn{
+    background: url('../image/stopwatch.png') no-repeat 50% 50% !important;
+}
+.hospitalBtn{
+    background: url('../image/ambulance.png') no-repeat 50% 50% !important;
+}
+.checklistBtn{
+    background: url('../image/checklist.png') no-repeat 50% 50% !important;
+}
+.dfmBtn{
+    background: url('../image/dfm.png') no-repeat 50% 50% !important;
+}
+.lottoBtn{
+    background: url('../image/lotto.png') no-repeat 50% 50% !important;
+}
+.miscBtn{
+    background: url('../image/misc.png') no-repeat 50% 50% !important;
+}
+.textBtn{
+    background: url('../image/text.png') no-repeat 50% 50% !important;
+}
+.imagesBtn{
+    background: url('../image/viewmaster.png') no-repeat 50% 50% !important;
+}
+
+/*mobile wide*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .buttonContainer{
+        margin: 5px;
+        box-shadow: 0px 5px 7px #888;
+    }
+}
+
+
+/*loader CSS*/
+#circularG{
+position:relative;
+width:128px;
+height:128px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+}
+
+.circularG{
+position:absolute;
+background-color:#00E1FF;
+width:29px;
+height:29px;
+-webkit-border-radius:19px;
+-moz-border-radius:19px;
+-webkit-animation-name:bounce_circularG;
+-webkit-animation-duration:0.64s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:linear;
+-moz-animation-name:bounce_circularG;
+-moz-animation-duration:0.64s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:linear;
+border-radius:19px;
+-o-animation-name:bounce_circularG;
+-o-animation-duration:0.64s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:linear;
+-ms-animation-name:bounce_circularG;
+-ms-animation-duration:0.64s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-direction:linear;
+}
+
+#circularG_1{
+left:0;
+top:50px;
+-webkit-animation-delay:0.24s;
+-moz-animation-delay:0.24s;
+-o-animation-delay:0.24s;
+-ms-animation-delay:0.24s;
+}
+
+#circularG_2{
+left:14px;
+top:14px;
+-webkit-animation-delay:0.32s;
+-moz-animation-delay:0.32s;
+-o-animation-delay:0.32s;
+-ms-animation-delay:0.32s;
+}
+
+#circularG_3{
+top:0;
+left:50px;
+-webkit-animation-delay:0.4s;
+-moz-animation-delay:0.4s;
+-o-animation-delay:0.4s;
+-ms-animation-delay:0.4s;
+}
+
+#circularG_4{
+right:14px;
+top:14px;
+-webkit-animation-delay:0.48s;
+-moz-animation-delay:0.48s;
+-o-animation-delay:0.48s;
+-ms-animation-delay:0.48s;
+}
+
+#circularG_5{
+right:0;
+top:50px;
+-webkit-animation-delay:0.56s;
+-moz-animation-delay:0.56s;
+-o-animation-delay:0.56s;
+-ms-animation-delay:0.56s;
+}
+
+#circularG_6{
+right:14px;
+bottom:14px;
+-webkit-animation-delay:0.64s;
+-moz-animation-delay:0.64s;
+-o-animation-delay:0.64s;
+-ms-animation-delay:0.64s;
+}
+
+#circularG_7{
+left:50px;
+bottom:0;
+-webkit-animation-delay:0.72s;
+-moz-animation-delay:0.72s;
+-o-animation-delay:0.72s;
+-ms-animation-delay:0.72s;
+}
+
+#circularG_8{
+left:14px;
+bottom:14px;
+-webkit-animation-delay:0.8s;
+-moz-animation-delay:0.8s;
+-o-animation-delay:0.8s;
+-ms-animation-delay:0.8s;
+}
+
+@-webkit-keyframes bounce_circularG{
+0%{
+-webkit-transform:scale(1)}
+
+100%{
+-webkit-transform:scale(.3)}
+
+}
+
+@-moz-keyframes bounce_circularG{
+0%{
+-moz-transform:scale(1)}
+
+100%{
+-moz-transform:scale(.3)}
+
+}
+
+@-o-keyframes bounce_circularG{
+0%{
+-o-transform:scale(1)}
+
+100%{
+-o-transform:scale(.3)}
+
+}
+
+@-ms-keyframes bounce_circularG{
+0%{
+-ms-transform:scale(1)}
+
+100%{
+-ms-transform:scale(.3)}
+
+}

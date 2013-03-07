@@ -1,0 +1,39 @@
+{
+    "id": "step2",
+    "description": "Now we'll need some information about the Project.",
+    "showNav" : true,
+    "linnear": {
+        "nextStep": "ispotselection"
+    },
+    "inputgroup1": {
+        "groupDescription": "Customer",
+        "id": "customergroup",
+        "xclass": "indented",
+        "input": [
+            {
+                "label": "Customer Name",
+                "verify": true,
+                "type": "text"
+            }, 
+            {
+                "label": "Customer #",
+                "verify": true,
+                "type": "number", 
+                "special": "min=1 max=5"
+            }
+        ]
+    },
+    "input": {
+        "label": "Design Name",
+        "type": "text"
+    },
+    "textarea": {
+        "label": "Description",
+        "rows" : "4",
+        "cols" : "2"
+    },
+     "input2": {
+        "label": "Contract #",
+        "type": "text"
+    }
+}

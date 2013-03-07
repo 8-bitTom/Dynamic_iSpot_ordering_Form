@@ -1,0 +1,12 @@
+{
+    "id" : "custom",
+    "description" : "let's set up an iSpot that's not like other iSpots",
+    "CSC" : "true",
+    "showNav" : true,
+    "input1": {
+        "label": "Name",
+        "name": "Name",
+        "xclass": "required",
+        "type": "text"
+    }
+}

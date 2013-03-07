@@ -1,0 +1,12 @@
+{
+    "id" : "lotto",
+    "description" : "let's set up a lottery jackpot iSpot",
+    "CSC" : "true",
+    "showNav" : true,
+    "input1": {
+        "label": "Name",
+        "name": "Name",
+        "xclass": "required",
+        "type": "text"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id" : "er",
+    "description" : "let's set up an emergency room wait time iSpot",
+    "CSC" : "true",
+    "showNav" : true,
+    "input1": {
+        "label": "Name",
+        "name": "Name",
+        "xclass": "required",
+        "type": "text"
+    }
+}

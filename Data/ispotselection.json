@@ -1,0 +1,113 @@
+{
+    "id" : "ispotselection",
+    "showNav" : false,
+    "description" : "What kind of iSpot Does your Client need?",
+        "button" : [
+                {
+                        "xclass" : "radioBtn imgBtn",
+                        "onclick" : "true",
+                        "link" : "radio",
+                        "target" : "#iSpotType",
+                        "completeStep" : "true",
+                        "label" : "Radio"
+                },
+                {
+                        "xclass" : "timeTempBtn imgBtn",
+                        "onclick" : "true",
+                        "link" : "timetemp",
+                        "target" : "#iSpotType",
+                        "completeStep" : "true",
+                        "label" : "Time Temp"
+                },
+                {
+                        "xclass" : "sportsBtn imgBtn",
+                        "onclick" : "true",
+                        "link" : "sports",
+                        "target" : "#iSpotType",
+                        "completeStep" : "true",
+                        "label" : "Sports"
+                },
+                {
+                        "xclass" : "countdownBtn imgBtn",
+                        "onclick" : "true",
+                        "link" : "countdown",
+                        "target" : "#iSpotType",
+                        "completeStep" : "true",
+                        "label" : "Countdown"
+                },
+                {
+                        "xclass" : "socialBtn imgBtn",
+                        "onclick" : "true",
+                        "link" : "social",
+                        "target" : "#iSpotType",
+                        "completeStep" : "true",
+                        "label" : "Social Media"
+                },
+                {
+                        "xclass" : "dfmBtn imgBtn",
+                        "onclick" : "true",
+                        "link" : "dfm",
+                        "target" : "#iSpotType",
+                        "completeStep" : "true",
+                        "label" : "text/img"
+                },
+                {
+                        "xclass" : "hospitalBtn imgBtn",
+                        "onclick" : "true",
+                        "link" : "er",
+                        "target" : "#iSpotType",
+                        "completeStep" : "true",
+                        "label" : "ER Wait Time"
+                },
+                {
+                        "xclass" : "lottoBtn imgBtn",
+                        "onclick" : "true",
+                        "link" : "lotto",
+                        "target" : "#iSpotType",
+                        "completeStep" : "true",
+                        "label" : "Lotto"
+                },
+                {
+                        "xclass" : "miscBtn imgBtn",
+                        "onclick" : "true",
+                        "link" : "custom",
+                        "target" : "#iSpotType",
+                        "completeStep" : "true",
+                        "label" : "Custom"
+                }
+        ],
+        "select" : {
+                "id" : "iSpotType",
+                "name" : "iSpot Type",
+                "hidden" : true,
+                "xclass" : "input_field_12em link required",
+                "options" : [
+                        {
+                            "option" : "radio",
+                            "name" : "Radio Feed"},
+                        {
+                            "option" : "timetemp",
+                            "name" : "Time and Temp"},
+                        {
+                            "option" : "sports",
+                            "name" : "Sports Scores"},
+                        {
+                            "option" : "countdown",
+                            "name" : "Count Down"},
+                        {
+                            "option" : "social",
+                            "name" : "Social Media"},
+                        {
+                            "option" : "dfm",
+                            "name" : "Digital Feed Manager"},
+                        {"option" : "er",
+                            "name" : "Emergency Room Wait time"},
+                        {
+                            "option" : "lotto",
+                            "name" : "Lottery Jackpot"},
+                        {
+                            "option" : "custom",
+                            "name" : "custom iSpot"}
+        ]
+}
+}

@@ -1,0 +1,12 @@
+{
+    "id" : "dfm",
+    "description" : "let's set up an iSpot with custom text and/or images",
+    "CSC" : "true",
+    "showNav" : true,
+    "input1": {
+        "label": "Name",
+        "name": "Name",
+        "xclass": "required",
+        "type": "text"
+    }
+}

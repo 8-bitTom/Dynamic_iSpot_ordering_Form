@@ -1,0 +1,64 @@
+{
+    "id" : "radio",
+    "description" : "let's set up a Radio Station iSpot",
+    "CSC" : true,
+    "showNav" : true,
+    "inputgroup1": {
+        "groupDescription": "Dynamic Info",
+        "id": "dynamicinfo",
+        "xclass": "indented halfwidth",
+        "input": [
+            {
+                "label": "Title",
+                "name": "Dynamic Info",
+                "type": "checkbox",
+                "special": "checked=checked"
+            },
+            {
+                "label": "Artist",
+                "name": "Dynamic Info",
+                "type": "checkbox",
+                "special": "checked=checked"
+            }
+        ]
+    },
+    "inputgroup2": {
+        "groupDescription": "Data source",
+        "id": "datasource",
+        "xclass": "indented halfwidth",
+        "input": [
+            {
+                "label": "XML Data",
+                "name": "DataSource",
+                "type": "radio"
+            },
+            {
+                "label": "FTP Data",
+                "name": "DataSource",
+                "type": "radio"
+            }
+        ]
+    }, 
+    "inputgroup3": {
+        "groupDescription": "How does this iSpot handle Non-Songs?",
+        "id": "datasource",
+        "xclass": "indented halfwidth",
+        "input": [
+            {
+                "label": "Show Failsafe Design",
+                "name": "comercialHandling",
+                "type": "radio"
+            },
+            {
+                "label": "show last played song",
+                "name": "comercialHandling",
+                "type": "radio"
+            },
+            {
+                "label": "show text from data",
+                "name": "comercialHandling",
+                "type": "radio"
+            }
+        ]
+    }    
+}

@@ -1,0 +1,12 @@
+{
+    "id" : "sports",
+    "description" : "let's set up a Spots Score Tracker iSpot",
+    "CSC" : "true",
+    "showNav" : true,
+    "input1": {
+        "label": "Name",
+        "name": "Name",
+        "xclass": "required",
+        "type": "text"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "id" : "timetemp",
+    "description" : "let's set up a Time and Temp iSpot",
+    "CSC" : "true",
+    "showNav" : true,
+    "input1": {
+        "label": "Name",
+        "name": "Name",
+        "xclass": "required",
+        "type": "text"
+    }
+}

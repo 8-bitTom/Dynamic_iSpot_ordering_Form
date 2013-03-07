@@ -1,0 +1,250 @@
+/*	Less Framework 4
+	http://lessframework.com
+	by Joni Korpi
+	License: http://opensource.org/licenses/mit-license.php	*/
+
+
+/*	Resets
+	------	*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+
+a img {border: 0;}
+
+
+
+/*	Typography presets
+	------------------	*/
+
+.gigantic {
+	font-size: 110px;
+	line-height: 120px;
+	letter-spacing: -2px;
+}
+
+.huge, h1 {
+	font-size: 68px;
+	line-height: 72px;
+	letter-spacing: -1px;
+}
+
+.large, h2 {
+	font-size: 42px;
+	line-height: 48px;
+}
+
+.bigger, h3 {
+	font-size: 26px;
+	line-height: 36px;
+}
+
+.big, h4 {
+	font-size: 22px;
+	line-height: 30px;
+}
+
+body {
+	font: 16px/24px Georgia, serif;
+}
+
+.small, small {
+	font-size: 13px;
+	line-height: 18px;
+}
+
+textarea {
+    margin-right: 10px;
+    margin-left: 10px;
+     width: 187px;
+     resize: vertical;
+     }
+
+/* Selection colours (easy to forget) */
+
+::selection 	 	{background: rgb(255,255,158);}
+::-moz-selection 	{background: rgb(255,255,158);}
+img::selection 		{background: transparent;}
+img::-moz-selection	{background: transparent;}
+body {-webkit-tap-highlight-color: rgb(255,255,158);}
+
+
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+body {
+	width: 100%;
+	padding: 72px 0px 0px;
+	background: rgb(232,232,232);
+	color: rgb(60,60,60);
+	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+}
+
+#mainContainer{
+	/*width: 568px;*/
+	width: 85%;
+}
+.textfieldContainer{
+    width: 65%;
+    text-align: right;
+    margin: 5px 0px;
+    vertical-align: top;
+}
+.indented .textfieldContainer{
+    width: 73%;
+}
+.indented{
+    max-width: 570px;
+}
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	body {
+		/*width: 712px;*/
+		padding: 48px 0px 0px;
+	}
+	
+	input, button{
+		margin: 5px 10px;
+	}
+        .textfieldContainer{
+            width: 70%;
+            text-align: right;
+        }
+        .indented .textfieldContainer{
+            width: 75%;
+        }
+	
+}
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	body {
+		/*width: 252px;*/
+		padding: 48px 0px 0px;
+	}
+	
+	#mainContainer{
+		/*width: 568px;*/
+		width: 252px;
+	}
+	
+	.large, h2 {
+		font-size: 34px;
+		line-height: 36px;
+		letter-spacing: -1px;
+	}
+	
+	.big, h4 {
+		font-size: 20px;
+		line-height: 25px;
+		letter-spacing: -1px;
+	}
+	
+	input, button{
+		margin: 10px 10px;
+	}
+	
+	.ui-widget .ui-widget {
+	font-size: 1.4em;
+	letter-spacing: -2px;
+	}
+        
+	.textfieldContainer{
+            width: 98%;
+            text-align: center;
+        }
+        .indented .textfieldContainer{
+            width: 98%;
+        }
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	body {
+		/*width: 436px;*/
+		padding: 36px 0px 0px;
+	}
+	
+	#mainContainer{
+		/*width: 568px;*/
+		width: 436px;
+	}
+	
+	.large, h2 {
+		font-size: 39px;
+		line-height: 32px;
+		letter-spacing: -1px;
+	}
+	
+	.big, h4 {
+		font-size: 20px;
+		line-height: 25px;
+		letter-spacing: -1px;
+	}
+	
+	input, button{
+		margin: 8px 10px;
+	}
+	
+	.ui-widget .ui-widget {
+	font-size: 2em;
+	}
+	
+        .textfieldContainer{
+            width: 85%;
+            text-align: right;
+        }
+        .indented .textfieldContainer{
+            width: 86%;
+        }
+	
+}

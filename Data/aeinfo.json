@@ -1,0 +1,35 @@
+{
+    "id" : "step1",
+    "description" : "Let's start off with your contact info.",
+    "showNav" : true,
+    "linnear" : {
+        "nextStep" : "projectinfo"
+    },
+    "input1": {
+        "label": "Name",
+        "name": "Name",
+        "xclass": "required",
+        "type": "text"
+    },
+    "inputgroup1": {
+        "groupDescription": "Email",
+        "id": "emailgroup",
+        "xclass": "indented",
+        "input": [
+            {
+                "label": "Email",
+                "name": "Email",
+                "special" : "id=xmail"
+            }, 
+            {
+                "label": "Confirm Email",
+                "name": "Confirm"
+            }
+        ]
+    },
+    "input3": {
+        "label": "Plant #",
+        "name": "plant_number",
+        "type": "number"
+    }
+}

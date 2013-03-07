@@ -1,0 +1,12 @@
+{
+    "id" : "countdown",
+    "description" : "let's set up an iSpot that counts down to a date",
+    "CSC" : "false",
+    "showNav" : true,
+    "input1": {
+        "label": "Name",
+        "name": "Name",
+        "xclass": "required",
+        "type": "text"
+    }
+}
